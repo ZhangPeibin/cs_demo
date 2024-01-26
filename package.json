@@ -1,0 +1,24 @@
+{
+  "name": "cs_demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cubist-labs/cubesigner-sdk": "^0.3.8",
+    "@cubist-labs/cubesigner-sdk-ethers-v6": "^0.3.8",
+    "@cubist-labs/cubesigner-sdk-fs-storage": "^0.3.8",
+    "ethers": "^6.10.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.12"
+  }
+}
